@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'cat /etc/*release'
         sh 'hostname'
+        echo 'Hola Jenkins'
       }
     }
 
